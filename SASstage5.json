@@ -1,0 +1,780 @@
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "xmlns": "http:\/\/www.w3.org\/2005\/Atom",
+        "xmlns$openSearch": "http:\/\/a9.com\/-\/spec\/opensearchrss\/1.0\/",
+        "xmlns$gsx": "http:\/\/schemas.google.com\/spreadsheets\/2006\/extended",
+        "id": {
+            "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values"
+        },
+        "updated": {
+            "$t": "2021-07-07T04:22:15.744Z"
+        },
+        "category": [
+            {
+                "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Sheet1"
+        },
+        "link": [
+            {
+                "rel": "alternate",
+                "type": "application\/atom+xml",
+                "href": "https:\/\/docs.google.com\/spreadsheets\/u\/0\/d\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/pubhtml"
+            },
+            {
+                "rel": "http:\/\/schemas.google.com\/g\/2005#feed",
+                "type": "application\/atom+xml",
+                "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values"
+            },
+            {
+                "rel": "http:\/\/schemas.google.com\/g\/2005#post",
+                "type": "application\/atom+xml",
+                "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values"
+            },
+            {
+                "rel": "self",
+                "type": "application\/atom+xml",
+                "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values?alt=json"
+            }
+        ],
+        "author": [
+            {
+                "name": {
+                    "$t": "josh.armistead"
+                },
+                "email": {
+                    "$t": "josh.armistead@education.nsw.gov.au"
+                }
+            }
+        ],
+        "openSearch$totalResults": {
+            "$t": "11"
+        },
+        "openSearch$startIndex": {
+            "$t": "1"
+        },
+        "entry": [
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cokwr"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Active Volunteering"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: Volunteering will help students gain valuable workskills and experience preparing them for employment., career: This course is ideal for students who are currently volunteering in a local community organisation., qualname: Certificate I in Active Volunteering, qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 20, virtualdelivery: n\/a, industry: Health and Community Services, unique: EVET0001"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cokwr"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Active Volunteering"
+                },
+                "gsx$description": {
+                    "$t": "Volunteering will help students gain valuable workskills and experience preparing them for employment."
+                },
+                "gsx$career": {
+                    "$t": "This course is ideal for students who are currently volunteering in a local community organisation."
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Active Volunteering"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "20"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Health and Community Services"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0001"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cpzh4"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "AgriFood Operations"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: This entry-level qualification is aimed at individuals entering the agriculture, horticulture and conservation and land management industries. It allows individuals to develop basic skills and knowledge to prepare for work., career: Farm Hand, Horticultural Assistant, Landcare Worker, qualname: Certificate I in AgriFood Operations , qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Agriculture and Environmental Management, unique: EVET0002"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cpzh4"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "AgriFood Operations"
+                },
+                "gsx$description": {
+                    "$t": "This entry-level qualification is aimed at individuals entering the agriculture, horticulture and conservation and land management industries. It allows individuals to develop basic skills and knowledge to prepare for work."
+                },
+                "gsx$career": {
+                    "$t": "Farm Hand, Horticultural Assistant, Landcare Worker"
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in AgriFood Operations "
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Agriculture and Environmental Management"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0002"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cre1l"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Animal Studies"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: This qualification covers work activities undertaken by a cross-section of animal care and management enterprises. It is a general pre-vocational qualification aimed as an entry point into the industry., career: Assistant animal care worker, Assistant animal shelter attendant, Assistant kennel hand, Assistant cattery attendant, qualname: Certificate I in Animal Studies  , qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Agriculture and Environmental Management, unique: EVET0003"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cre1l"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Animal Studies"
+                },
+                "gsx$description": {
+                    "$t": "This qualification covers work activities undertaken by a cross-section of animal care and management enterprises. It is a general pre-vocational qualification aimed as an entry point into the industry."
+                },
+                "gsx$career": {
+                    "$t": "Assistant animal care worker, Assistant animal shelter attendant, Assistant kennel hand, Assistant cattery attendant"
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Animal Studies  "
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Agriculture and Environmental Management"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0003"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/chk2m"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Automotive"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: The Certificate I in Automotive Vocational Preparation offers entry-level training for those working or seeking to work in any of the automotive sectors covered by this Training Package such as: Bicycle, Automotive Electrical, Outdoor Power Equipment, Light vehicle, Vehicle Body and Paint - Detailing,  Motorcycle, Marine, and Heavy Vehicle., career: Motor mechanic, Heavy vehicle mechanic, Brake mechanic, Panel Beater, Spray Painter, qualname: Certificate I in Automotive Vocational Preparation, qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Transport, unique: EVET0004"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/chk2m"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Automotive"
+                },
+                "gsx$description": {
+                    "$t": "The Certificate I in Automotive Vocational Preparation offers entry-level training for those working or seeking to work in any of the automotive sectors covered by this Training Package such as: Bicycle, Automotive Electrical, Outdoor Power Equipment, Light vehicle, Vehicle Body and Paint - Detailing,  Motorcycle, Marine, and Heavy Vehicle."
+                },
+                "gsx$career": {
+                    "$t": "Motor mechanic, Heavy vehicle mechanic, Brake mechanic, Panel Beater, Spray Painter"
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Automotive Vocational Preparation"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Transport"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0004"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/ciyn3"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Business Services"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: Certificate I in Business course will teach you about operating computers, file management, the Internet and email, using standard business equipment in the workplace, keyboarding skills, workplace health, and planning for your own skills development (great for building your career)., career: Office Worker, Office Assistant. Word Processing Operator, Administration Assistant, qualname: Certificate I in Business, qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Business and Information Services, unique: EVET0005"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/ciyn3"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Business Services"
+                },
+                "gsx$description": {
+                    "$t": "Certificate I in Business course will teach you about operating computers, file management, the Internet and email, using standard business equipment in the workplace, keyboarding skills, workplace health, and planning for your own skills development (great for building your career)."
+                },
+                "gsx$career": {
+                    "$t": "Office Worker, Office Assistant. Word Processing Operator, Administration Assistant"
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Business"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Business and Information Services"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0005"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/ckd7g"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Construction"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: The Certificate I Construction qualification provides an introduction to the construction industry, its culture, occupations, job roles and workplace expectations. It covers essential work health and safety requirements, the industrial and work organisation structure, communication skills, work planning, and basic use of tools  and materials., career: Pathway into the Contruction industry, qualname: SOA Certificate I in Construction, qualoutcome: Statement of Attainment, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Construction and Property, unique: EVET0006"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/ckd7g"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Construction"
+                },
+                "gsx$description": {
+                    "$t": "The Certificate I Construction qualification provides an introduction to the construction industry, its culture, occupations, job roles and workplace expectations. It covers essential work health and safety requirements, the industrial and work organisation structure, communication skills, work planning, and basic use of tools  and materials."
+                },
+                "gsx$career": {
+                    "$t": "Pathway into the Contruction industry"
+                },
+                "gsx$qualname": {
+                    "$t": "SOA Certificate I in Construction"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Statement of Attainment"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Construction and Property"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0006"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/clrrx"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Foundation Skills for Vocational Pathways"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: This course is for those students who need to build on their basic work skills to prepare for workforce entry or vocational training pathways. Develop employability skills and undertake units in a range of trade areas so you can make informed choices on your future career pathway., career: Units completed will provide students with valuable credit transfer towards further vocational education courses or corresponding trade areas., qualname: Certificate I in Skills for Vocational Pathways, qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Business and Information Services, unique: EVET0007"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/clrrx"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Foundation Skills for Vocational Pathways"
+                },
+                "gsx$description": {
+                    "$t": "This course is for those students who need to build on their basic work skills to prepare for workforce entry or vocational training pathways. Develop employability skills and undertake units in a range of trade areas so you can make informed choices on your future career pathway."
+                },
+                "gsx$career": {
+                    "$t": "Units completed will provide students with valuable credit transfer towards further vocational education courses or corresponding trade areas."
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Skills for Vocational Pathways"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Business and Information Services"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0007"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cyevm"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Hospitality"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: This qualification reflects the role of individuals who participate in a range of routine and predictable hospitality work activities. They work under close supervision and are given clear directions to complete tasks., career: Pathway to work in various hospitality settings, such as restaurants, hotels, motels, catering operations, clubs, pubs, cafes and coffee shops., qualname: Certificate I in Hospitality, qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Tourism and Hospitality, unique: EVET0008"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cyevm"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Hospitality"
+                },
+                "gsx$description": {
+                    "$t": "This qualification reflects the role of individuals who participate in a range of routine and predictable hospitality work activities. They work under close supervision and are given clear directions to complete tasks."
+                },
+                "gsx$career": {
+                    "$t": "Pathway to work in various hospitality settings, such as restaurants, hotels, motels, catering operations, clubs, pubs, cafes and coffee shops."
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Hospitality"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Tourism and Hospitality"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0008"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cztg3"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Information and Digital Literacy"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: This qualification provides the skills and knowledge for individuals to safely perform foundation digital literacy tasks using a personal computer and a range of software applications and digital devices., career: ICT technical support roles within organisations, Administration Officer, Receptionist, Data Entry Operator., qualname: Certificate I in Information, Digital Media and Technology, qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Business and Information Services, unique: EVET0009"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/cztg3"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Information and Digital Literacy"
+                },
+                "gsx$description": {
+                    "$t": "This qualification provides the skills and knowledge for individuals to safely perform foundation digital literacy tasks using a personal computer and a range of software applications and digital devices."
+                },
+                "gsx$career": {
+                    "$t": "ICT technical support roles within organisations, Administration Officer, Receptionist, Data Entry Operator."
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Information, Digital Media and Technology"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Business and Information Services"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0009"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/d180g"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Manufacturing (Pathways)"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: Certificate I in Manufacturing (Pathways) is designed to develop skills that are essential for employment and skills that relate directly to a work activity as specified in the selected industry\/technical unit., career: Automotive Mechanical, Boilermaker, Fitter and Turner, Metal Manufacture, Tool and Die Setter, Shipwright, Metal Trade Assistant, Builder, Carpenter, Bricklayer, Solid Plasterer, Ceramic tiler, Painter, Form worker, Concreter, Roof tiler, Steel Fixer, Construction worker and furnishing industries, qualname: Certificate I in Manufacturing (Pathways), qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Manufacturing, Engineering & Utilities, unique: EVET0010"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/d180g"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Manufacturing (Pathways)"
+                },
+                "gsx$description": {
+                    "$t": "Certificate I in Manufacturing (Pathways) is designed to develop skills that are essential for employment and skills that relate directly to a work activity as specified in the selected industry\/technical unit."
+                },
+                "gsx$career": {
+                    "$t": "Automotive Mechanical, Boilermaker, Fitter and Turner, Metal Manufacture, Tool and Die Setter, Shipwright, Metal Trade Assistant, Builder, Carpenter, Bricklayer, Solid Plasterer, Ceramic tiler, Painter, Form worker, Concreter, Roof tiler, Steel Fixer, Construction worker and furnishing industries"
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Manufacturing (Pathways)"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Manufacturing, Engineering & Utilities"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0010"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/d2mkx"
+                },
+                "updated": {
+                    "$t": "2021-07-07T04:22:15.744Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
+                        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Retail"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "description: This course will equip you with a range of skills allowing you to effectively perform a variety of basic tasks in a retail, or other workplace, environment. On completion of this course, you could find yourself working in a role such as sales assistant, register operator or in other frontline team member positions., career: Sales Assistant (General), qualname: Certificate I in Retail Services, qualoutcome: Full Certificate, hscunit: n\/a, url: n\/a, atareligible: n\/a, workp: 0, virtualdelivery: n\/a, industry: Services Industries, unique: EVET0011"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application\/atom+xml",
+                        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1aypY4N7An22Pm6YvfhayAYsqeQW6TyCspCM89_Tzs7A\/1\/public\/values\/d2mkx"
+                    }
+                ],
+                "gsx$title": {
+                    "$t": "Retail"
+                },
+                "gsx$description": {
+                    "$t": "This course will equip you with a range of skills allowing you to effectively perform a variety of basic tasks in a retail, or other workplace, environment. On completion of this course, you could find yourself working in a role such as sales assistant, register operator or in other frontline team member positions."
+                },
+                "gsx$career": {
+                    "$t": "Sales Assistant (General)"
+                },
+                "gsx$qualname": {
+                    "$t": "Certificate I in Retail Services"
+                },
+                "gsx$qualoutcome": {
+                    "$t": "Full Certificate"
+                },
+                "gsx$hscunit": {
+                    "$t": "n\/a"
+                },
+                "gsx$url": {
+                    "$t": "n\/a"
+                },
+                "gsx$atareligible": {
+                    "$t": "n\/a"
+                },
+                "gsx$workp": {
+                    "$t": "0"
+                },
+                "gsx$virtualdelivery": {
+                    "$t": "n\/a"
+                },
+                "gsx$industry": {
+                    "$t": "Services Industries"
+                },
+                "gsx$unique": {
+                    "$t": "EVET0011"
+                }
+            }
+        ]
+    }
+}
