@@ -1,0 +1,489 @@
+
+
+<link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://education.nsw.gov.au/etc.clientlibs/commons-education/clientlibs/clientlib-base.min.9ab399af49ee188b5b8e10be187422cf.css" type="text/css">
+<link rel="stylesheet" href="https://education.nsw.gov.au/etc.clientlibs/main-education/clientlibs/clientlib-base.min.fb0328ae000ce5b08ff10c0968e1efaa.css" type="text/css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+
+<div id="app">
+</div>
+
+<div id="content" class="container">
+
+    <!-- Search bar -->
+
+    <div id="headerV" class="row">
+        <div>
+            <h3 id="hideMob">Search for providers in your area</h3>
+        </div>
+        <input id="searchV" v-on:input="filtertitles" type="searchV"
+            placeholder="Start typing to filter all content" class="form-control bg-none border-1">
+    </div>
+    <!--End Search bar-->
+
+    <div>
+        <h3>Filter by region</h3>
+    </div>
+    <div class="row">
+
+        <!-- Left nav (desktop) and Drop down (tablet and mobile) -->
+
+        <div id="sidebar" class="col-lg-4">
+
+            <div class="btn gel-button gel-button-secondary gel-button-small" id="reset-filter" v-on:click="reset">
+                Remove filter
+            </div>
+
+
+            <div id="region">
+                <div id="drop-down" class="gel-select mb-0">
+                    <select @change="selectregion" v-model="key">
+                        <option value="">All regions</option>
+                        <option v-for="region in region" :value="region">{{ region }}</option>
+                    </select>
+                </div>
+                <div id="left-nav">
+                    <ul>
+                        <li class="menu-item" v-for="region in region" v-on:click="selectregion" :data="region">
+                            {{ region }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- End Left nav-->
+
+        <!-- Styled values from Google Sheet render here-->
+
+        <div id="titles" class="col-lg-8">
+            <div class="showhide aem-GridColumn aem-GridColumn--default--12">
+                <div class="gel-show-hide" id="accordion">
+                    <div v-for="title in titles" class="card" :key="title.unique">
+                        <div v-if="title.unique " class="card-header" :id="title.unique+'_header'">
+                            <h3 class="gel-show-hide_title">
+                                <button class="gel-show-hide_link btn-block" data-toggle="collapse"
+                                    :data-target="'#'+title.unique" aria-expanded="false"
+                                    :aria-controls="title.unique"><i></i><i class="vertical"></i><strong> {{
+                                        title.titlenocode }}</strong> – {{ title.rtoname }}
+                                </button>
+                            </h3>
+                        </div>
+                        <div class="collapse" :id="title.unique" aria-labelledby="title.unique">
+
+                            <div class="card-body">
+
+                                <div id="unique">
+                                    <div class="row">
+                                        <div id="propName"><strong>Training provider:</strong> </div>
+                                        <div id="span" v-if="title.rtoname != ''">
+                                            {{ title.rtoname }}
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="unique">
+                                    <div class="row">
+                                        <div id="propName"><strong>Available courses:</strong> </div>
+                                        <div id="span" class="code" v-if="title.title != ''">
+                                            {{ title.title }}
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <div id="unique">
+                                    <div class="row">
+                                        <div id="propName"><strong>Website:</strong> </div>
+                                        <div id="span" v-if="title.rtoweb != ''">
+                                            <a :href="title.rtoweb">{{ title.rtoweb }}</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="unique">
+                                    <div class="row">
+                                        <div id="propName"><strong>Contact:</strong> </div>
+                                        <div id="span" v-if="title.contact != ''">
+                                            {{ title.contact }} (Position: {{ title.position }})
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div id="unique">
+                                    <div class="row">
+                                        <div id="propName"><strong>Phone:</strong> </div>
+                                        <div id="span" v-if="title.rtophone != ''">
+                                            <a :href="'tel:' + title.rtophone">{{ title.rtophone }}</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="unique">
+                                    <div class="row">
+                                        <div id="propName"><strong>Mobile:</strong> </div>
+                                        <div id="span" v-if="title.rtomob != ''">
+                                            <a :href="'tel:' + title.rtomob">{{ title.rtomob }}</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="unique">
+                                    <div class="row">
+                                        <div id="propName"><strong>Email:</strong> </div>
+                                        <div id="span" v-if="title.rtoemail != ''">
+                                           <a :href="'mailto:' + title.rtoemail">{{ title.rtoemail }}</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="unique">
+                                    <div class="row">
+                                        <div id="propName"><strong>Regions:</strong>
+                                        </div>
+                                        <div id="span" class="code" v-if="title.region != ''">
+                                            {{ title.region.toString().split(',').join(', ')}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript"
+    src="https://education.nsw.gov.au/etc.clientlibs/main-education/clientlibs/clientlib-base.min.71e5d1052c685d59bdb09cefd3785f63.js"></script>
+<script>
+
+
+    // URL to the JSON data of the Google Spreadsheet
+    var gsheet_url = "https://siidny.github.io/json/tpp.json";
+    var titleList = [];
+    var regionList = [];
+   
+  
+
+    // Load data when the page is ready
+    var app = new Vue({
+        el: '#app',
+        data() {
+            return {
+                info: null
+            }
+        },
+        mounted() {
+            axios
+                .get(gsheet_url)
+                .then(response => (
+                    parseData(response.data)
+                ))
+        },
+    });
+
+    // Search function
+    var searchV = new Vue({
+        el: '#searchV',
+        methods: {
+            filtertitles: function (event) {
+                var query = event.target.value;
+
+                // Reset filter if query is empty string
+                if (query.length == 0) {
+                    titles.titles = titleList;
+                }
+
+                // Do nothing if query is too short
+                if (query.length < 3) return;
+
+                var filtered = [];
+                query = query.toLowerCase();
+                console.log(query);
+
+                // Search in title, uoc, and rto name
+                titleList.forEach(function (value) {
+                    var title = value.title.toLowerCase();
+                    var titlenocode = value.titlenocode.toLowerCase();
+                    var rtoname = value.rtoname.toLowerCase();
+
+
+                    if (
+                        (title.search(query) >= 0) ||
+                        (titlenocode.search(query) >= 0) ||
+                        (rtoname.search(query) >= 0)) {
+                        filtered.push(value);
+                    }
+                });
+                titles.titles = filtered;
+            }
+        }
+    });
+    // End search function
+
+    var titles = new Vue({
+        el: '#titles',
+        data: {
+            titles: titleList,
+            counter: 0
+        }
+    });
+
+
+    // Populate Left Nav
+
+
+    var resetFilter = new Vue({
+        el: '#reset-filter',
+        methods: {
+            reset: function (event) {
+                titles.titles = titleList;
+                $('#drop-down select').val("");
+            }
+        }
+    });
+
+    var region = new Vue({
+        el: '#region',
+        data: {
+            region: regionList,
+            key: ""
+        },
+        methods: {
+            selectregion: function (event) {
+                var selected = [];
+                var region = event.target.getAttribute('data');
+
+                if (!region) {
+                    region = event.target.value;
+                    if (region === '') {
+                        titles.titles = titleList;
+                        return;
+                    }
+                }
+                titleList.forEach(function (value) {
+                    if (value.region.includes(region)) {
+                        selected.push(value);
+                    }
+                });
+                titles.titles = selected;
+            }
+        }
+    });
+
+
+    function parseData(entries) {
+
+        var regionSet = new Set();
+        
+        entries.forEach(function (value) {
+            var entry = {
+                "title": value.title,
+                "titlenocode": value.titlenocode,
+                "rtophone": value.rtophone,
+                "rtomob": value.rtomob,
+                "rtoweb": value.rtoweb,
+                "rtoemail": value.rtoemail,
+                "unique": value.unique, 
+                "rtoname": value.rtoname,
+                "contact": value.contact,
+                "position": value.position,
+                "region": value.region.split(", ")
+
+            };
+
+        
+
+            entry.region.forEach(function (t) {
+                regionSet.add(t);
+            });
+
+            
+                titleList.push(entry);
+        });
+        regionList = Array.from(regionSet);
+        regionList.sort();
+
+
+        titles.titles = titleList;
+        region.region = regionList;
+    }
+</script>
+
+<style>
+
+    #span {
+       overflow: auto;
+   }
+
+    .message {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .message-header {
+        cursor: pointer;
+    }
+
+    .message-body {
+        padding: 0;
+        max-height: 10em;
+        overflow: hidden;
+        transition: 0.3s ease all;
+    }
+
+    .is-closed .message-body {
+        max-height: 0;
+    }
+
+    .message-content {
+        padding: 20px;
+    }
+
+    #headerV {
+        margin: 16px 0px 16px 0px;
+        width: 50%;
+    }
+
+    #searchV {
+        padding: 22px 16px 22px 16px;
+
+    }
+
+    input {
+        font-family: 'Montserrat', Arial, sans-serif;
+    }
+
+    .row {
+        margin: 0px;
+        padding-top: 20px;
+
+    }
+
+    /* left nav */
+
+    .menu-item {
+        text-decoration: underline;
+    }
+
+    .menu-item:hover {
+        text-decoration: none;
+    }
+
+    .menu-item {
+        cursor: pointer;
+        padding: 0px;
+    }
+
+    .menu-item::before {
+        display: none;
+    }
+
+    #propName {
+        padding-right: 20px;
+        
+    }
+    #propNameDesc {
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    body {
+        padding-bottom: 128px;
+    }
+
+
+    div.title {
+        margin-bottom: 0px;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .title-text {
+        padding-top: 15px;
+    }
+
+
+    /* Accordion */
+
+
+    .accordion {
+
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+   
+    .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .panel {
+        padding: 20px 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    /* RESPONSIVE */
+
+    @media only screen and (max-width: 991px) {
+        #left-nav {
+            display: none;
+        }
+
+        #searchV {
+            display: none;
+        }
+
+        headerV.row {
+            display: none;
+        }
+
+        h2 {
+            font-size: 23px;
+        }
+
+        .title {
+            padding: 10px 10px;
+        }
+
+        #sidebar {
+            display: flex;
+            margin-bottom: 30px;
+
+        }
+
+        #reset-filter {
+            display: none;
+        }
+
+        #hideMob {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 990px) {
+        #drop-down {
+            display: none;
+        }
+    }
+</style>
+
+
+
